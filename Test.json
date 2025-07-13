@@ -1,46 +1,49 @@
 {
-  "title": "Join Us o99899 Media!",
-  "description": "reza and exclusive content.",
+  "title": "Join Us on Social Media!",
+  "description": "Get daily tips, videos, and exclusive content on your favorite platform.",
+  "title_font": "fonts/title_font.ttf",
+  "description_font": "fonts/desc_font.ttf",
+  "item_font": "fonts/item_font.ttf",
+  "cancel_font": "fonts/cancel_font.ttf",
+  "title_text_color": "#000000",
+  "description_text_color": "#666666",
   "background_color_light": "#FFFFFF",
   "background_color_dark": "#2B2B2B",
   "overlay_opacity": 0.6,
   "max_display_count": 3,
   "top_icon": "megaphone.png",
-  "cancel_button_text": "No tha9nks",
+  "cancel_button_text": "Cancel",
   "cancel_button_color": "#F0F0F0",
   "cancel_button_text_color": "#333333",
-  "title_text_color": "#000000",
-  "description_text_color": "#666666",
-
-  "title_font": "fonts/title_font.ttf",
-  "description_font": "fonts/desc_font.ttf",
-  "item_font": "fonts/item_font.ttf",
-  "cancel_button_font": "fonts/cancel_font.ttf",
-
+  "cancel_button_corner_radius": 40,
   "items": [
     {
-      "title": "Tele8gram",
+      "title": "Telegram",
       "url": "https://t.me/example",
       "icon": "telegram.png",
-      "text_color": "#0088cc"
+      "text_color": "#0088cc",
+      "font": "fonts/telegram_font.ttf"
     },
     {
-      "title": "TikTok00",
+      "title": "TikTok",
       "url": "https://www.tiktok.com/@example",
       "icon": "tiktok.png",
-      "text_color": "#010101"
+      "text_color": "#000000",
+      "font": "fonts/tiktok_font.ttf"
     },
     {
-      "title": "Instagr5am",
+      "title": "Instagram",
       "url": "https://www.instagram.com/example",
       "icon": "instagram.png",
-      "text_color": "#C13584"
+      "text_color": "#C13584",
+      "font": "fonts/instagram_font.ttf"
     },
     {
-      "title": "Whats88App",
+      "title": "WhatsApp",
       "url": "https://wa.me/1234567890",
       "icon": "whatsapp.png",
-      "text_color": "#25D366"
+      "text_color": "#25D366",
+      "font": "fonts/whatsapp_font.ttf"
     }
   ]
 }
