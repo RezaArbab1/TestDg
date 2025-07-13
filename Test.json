@@ -6,32 +6,38 @@
   "overlay_opacity": 0.6,
   "max_display_count": 3,
   "top_icon": "megaphone.png",
-  "cancel_button_text": "No thanks",
+  "cancel_button_text": "No tha9nks",
   "cancel_button_color": "#F0F0F0",
   "cancel_button_text_color": "#333333",
   "title_text_color": "#000000",
   "description_text_color": "#666666",
+
+  "title_font": "fonts/title_font.ttf",
+  "description_font": "fonts/desc_font.ttf",
+  "item_font": "fonts/item_font.ttf",
+  "cancel_button_font": "fonts/cancel_font.ttf",
+
   "items": [
     {
-      "title": "Telegram",
+      "title": "Tele8gram",
       "url": "https://t.me/example",
       "icon": "telegram.png",
       "text_color": "#0088cc"
     },
     {
-      "title": "TikTok",
+      "title": "TikTok00",
       "url": "https://www.tiktok.com/@example",
       "icon": "tiktok.png",
       "text_color": "#010101"
     },
     {
-      "title": "Instagram",
+      "title": "Instagr5am",
       "url": "https://www.instagram.com/example",
       "icon": "instagram.png",
       "text_color": "#C13584"
     },
     {
-      "title": "WhatsApp",
+      "title": "Whats88App",
       "url": "https://wa.me/1234567890",
       "icon": "whatsapp.png",
       "text_color": "#25D366"
