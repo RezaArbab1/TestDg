@@ -1,5 +1,5 @@
 {
-  "title": "Join Us on Social Media!",
+  "title": "Join Us on Soc99ial Media!",
   "description": "Get daily tips, videos, and exclusive content on your favorite platform.",
   "title_font": "fonts/title_font.ttf",
   "description_font": "fonts/desc_font.ttf",
@@ -18,11 +18,11 @@
   "cancel_button_corner_radius": 40,
   "items": [
     {
-      "title": "Telegram",
+      "title": "Teleg7ram",
       "url": "https://t.me/example",
       "icon": "telegram.png",
       "text_color": "#0088cc",
-      "font": "fonts/telegram_font.ttf"
+      "font": ""
     },
     {
       "title": "TikTok",
