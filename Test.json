@@ -1,49 +1,62 @@
 {
-  "title": "Join Us on Soc99ial Media!",
-  "description": "Get daily tips, videos, and exclusive content on your favorite platform.",
-  "title_font": "fonts/title_font.ttf",
-  "description_font": "fonts/desc_font.ttf",
-  "item_font": "fonts/item_font.ttf",
-  "cancel_font": "fonts/cancel_font.ttf",
-  "title_text_color": "#000000",
-  "description_text_color": "#666666",
-  "background_color_light": "#FFFFFF",
-  "background_color_dark": "#2B2B2B",
-  "overlay_opacity": 0.6,
-  "max_display_count": 3,
-  "top_icon": "megaphone.png",
-  "cancel_button_text": "Cancel",
-  "cancel_button_color": "#F0F0F0",
-  "cancel_button_text_color": "#333333",
-  "cancel_button_corner_radius": 40,
-  "items": [
+  "dialogs": [
     {
-      "title": "Teleg7ram",
-      "url": "https://t.me/example",
-      "icon": "telegram.png",
-      "text_color": "#0088cc",
-      "font": ""
+      "id": 1,
+      "icon_url": "https://example.com/icons/search.png",
+      "background_color": "#F5F5F5",
+      "title": {
+        "text": "Follow Us",
+        "color": "#000000"
+      },
+      "message": {
+        "text": "Stay connected with us through social media.",
+        "color": "#333333"
+      },
+      "buttons": [
+        {
+          "type": "github",
+          "url": "https://github.com/yourprofile"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/yourprofile"
+        },
+        {
+          "type": "facebook",
+          "url": "https://facebook.com/yourprofile"
+        }
+      ],
+      "cancel_button": {
+        "text": "Cancel",
+        "color": "#000000"
+      },
+      "display_limit": 3,
+      "seasonal_theme": "none", 
+      "force_update": false,
+      "update_url": ""
     },
+
     {
-      "title": "TikTok",
-      "url": "https://www.tiktok.com/@example",
-      "icon": "tiktok.png",
-      "text_color": "#000000",
-      "font": "fonts/tiktok_font.ttf"
-    },
-    {
-      "title": "Instagram",
-      "url": "https://www.instagram.com/example",
-      "icon": "instagram.png",
-      "text_color": "#C13584",
-      "font": "fonts/instagram_font.ttf"
-    },
-    {
-      "title": "WhatsApp",
-      "url": "https://wa.me/1234567890",
-      "icon": "whatsapp.png",
-      "text_color": "#25D366",
-      "font": "fonts/whatsapp_font.ttf"
+      "id": 9,
+      "icon_url": "https://example.com/icons/bell.png",
+      "background_color": "#000000",
+      "title": {
+        "text": "Follow Us",
+        "color": "#FFFFFF"
+      },
+      "message": {
+        "text": "Stay connected with us through social media.",
+        "color": "#DDDDDD"
+      },
+      "buttons": [],
+      "cancel_button": {
+        "text": "Update Now",
+        "color": "#FF0000"
+      },
+      "display_limit": 1,
+      "seasonal_theme": "new_year",
+      "force_update": true,
+      "update_url": "https://play.google.com/store/apps/details?id=com.example.app"
     }
   ]
 }
